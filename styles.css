@@ -1,0 +1,37 @@
+body {
+    background: white;
+    font-family: Arial;
+}
+
+#container {
+    margin: 10px;
+}
+
+input {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+button {
+    background: blue;
+    color: white;
+    padding: 5px;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+/* estilo innecesariamente específico */
+body div#container input {
+    font-size: 14px;
+}
+
+/* tamaño fijo poco responsive */
+#userList {
+    width: 500px;
+}
